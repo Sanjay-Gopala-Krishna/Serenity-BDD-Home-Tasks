@@ -4,36 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da7439d-814c-4f5b-908c-5f2ccd8cf0ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/api/BaseRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/api/config/RequestSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/api/dto/BaseDto.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/api/dto/PetStoreDto.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/api/steps/PetStoreApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/api/steps/ResponseValidationApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/core/customdrivers/CustomChromeDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/staticdata/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/pages/AmazonHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/pages/ViewItemsAddedPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/steps/AmazonHomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/steps/CartPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/steps/LoginPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/steps/ProductPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/steps/ViewItemsAddedPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/BaseUiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/api/FourthHomeTaskApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/api/ThirdHomeTaskApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/ui/FirstHomeTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/ui/SecondHomeTaskTest.java" afterDir="false" />
+    <list default="true" id="4da7439d-814c-4f5b-908c-5f2ccd8cf0ae" name="Changes" comment="master - uploading the home tasks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/steps/ProductPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/steps/ProductPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Sanjay_Gopalakrishna/Documents/Serenity BDD/FirstModule/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sanjay_Gopalakrishna/Documents/Serenity BDD/FirstModule/src/main/java/com/epam/api/dto/models&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "C:/Users/Sanjay_Gopalakrishna/Documents/Serenity BDD/FirstModule/src/test/java",
+    "last_opened_file_path": "C:/Users/Sanjay_Gopalakrishna/Documents/Serenity BDD/FirstModule/src/main/java/com/epam/api/dto/models",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sanjay_Gopalakrishna\Documents\Serenity BDD\FirstModule\src\main\java\com\epam\api\dto\models" />
@@ -96,7 +73,69 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThirdHomeTaskApiTest">
+  <component name="RunManager" selected="JUnit.FirstHomeTaskTest.basicOperations">
+    <configuration name="FirstHomeTaskTest.basicOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Serenity BDD Home Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.ui.FirstHomeTaskTest" />
+      <option name="METHOD_NAME" value="basicOperations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourthHomeTaskApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Serenity BDD Home Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.api" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.api.FourthHomeTaskApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondHomeTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Serenity BDD Home Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.ui.SecondHomeTaskTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondHomeTaskTest.shouldSearchAndAddProductToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Serenity BDD Home Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.ui.SecondHomeTaskTest" />
+      <option name="METHOD_NAME" value="shouldSearchAndAddProductToCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThirdHomeTaskApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Serenity BDD Home Tasks" />
       <extension name="coverage">
@@ -112,77 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdHomeTaskApiTest.shouldReturnNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Serenity BDD Home Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.api.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.api" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.api.ThirdHomeTaskApiTest" />
-      <option name="METHOD_NAME" value="shouldReturnNotFound" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdHomeTaskApiTest.shouldValidateStatusOfAllPets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Serenity BDD Home Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.api.steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.api" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.api.ThirdHomeTaskApiTest" />
-      <option name="METHOD_NAME" value="shouldValidateStatusOfAllPets" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdHomeTaskApiTest.shouldVerifyContentTypeAndHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Serenity BDD Home Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.api.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.api" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.api.ThirdHomeTaskApiTest" />
-      <option name="METHOD_NAME" value="shouldVerifyContentTypeAndHeader" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdHomeTaskApiTest.shouldVerifyStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Serenity BDD Home Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.api.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.api" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.api.ThirdHomeTaskApiTest" />
-      <option name="METHOD_NAME" value="shouldVerifyStatusCode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstHomeTaskTest.basicOperations" />
+        <item itemvalue="JUnit.FourthHomeTaskApiTest" />
         <item itemvalue="JUnit.ThirdHomeTaskApiTest" />
-        <item itemvalue="JUnit.ThirdHomeTaskApiTest.shouldReturnNotFound" />
-        <item itemvalue="JUnit.ThirdHomeTaskApiTest.shouldVerifyContentTypeAndHeader" />
-        <item itemvalue="JUnit.ThirdHomeTaskApiTest.shouldValidateStatusOfAllPets (1)" />
-        <item itemvalue="JUnit.ThirdHomeTaskApiTest.shouldVerifyStatusCode" />
+        <item itemvalue="JUnit.SecondHomeTaskTest.shouldSearchAndAddProductToCart" />
+        <item itemvalue="JUnit.SecondHomeTaskTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +170,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667878856226</updated>
     </task>
+    <task id="LOCAL-00001" summary="master - uploading the home tasks">
+      <created>1668761142985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668761142985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,5 +190,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="master - uploading the home tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="master - uploading the home tasks" />
   </component>
 </project>
