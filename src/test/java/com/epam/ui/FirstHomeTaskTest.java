@@ -3,7 +3,6 @@ package com.epam.ui;
 import static com.epam.staticdata.Messages.PLEASE_CHECK_YOUR_USERNAME_AND_PASSWORD_IF_YOU_STILL_CANT_LOG_IN_CONTACT_YOUR_SALESFORCE_ADMINISTRATOR;
 
 import org.junit.Test;
-import org.junit.jupiter.api.Tag;
 import org.junit.runner.RunWith;
 
 import com.epam.BaseUiTest;
@@ -13,7 +12,6 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 
 @RunWith(SerenityRunner.class)
-@Tag("firstHomeTaskTest")
 public class FirstHomeTaskTest extends BaseUiTest {
 	@Steps
 	LoginPageSteps loginPageSteps;
