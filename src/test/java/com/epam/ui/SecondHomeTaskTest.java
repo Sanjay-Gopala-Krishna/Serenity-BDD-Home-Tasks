@@ -1,6 +1,7 @@
 package com.epam.ui;
 
 import org.junit.Test;
+import org.junit.jupiter.api.Tag;
 import org.junit.runner.RunWith;
 
 import com.epam.BaseUiTest;
@@ -10,6 +11,7 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 
 @RunWith(SerenityRunner.class)
+@Tag("secondHomeTaskTest")
 public class SecondHomeTaskTest extends BaseUiTest {
 	@Steps
 	AmazonHomePageSteps amazonHomePageSteps;
