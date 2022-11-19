@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4da7439d-814c-4f5b-908c-5f2ccd8cf0ae" name="Changes" comment="master - updating pr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/api/BaseRequests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/api/config/RequestSpec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/api/dto/BaseDto.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/api/dto/PetStoreDto.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/api/steps/PetStoreApiSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/api/steps/ResponseValidationApiSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/api/FourthHomeTaskApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/api/ThirdHomeTaskApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/ui/FirstHomeTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ui/FirstHomeTaskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/ui/SecondHomeTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ui/SecondHomeTaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668860336385</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="master - updating pr">
+      <created>1668863015336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668863015336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
