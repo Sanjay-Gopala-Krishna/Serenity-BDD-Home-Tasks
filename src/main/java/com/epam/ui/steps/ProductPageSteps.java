@@ -18,8 +18,10 @@ public class ProductPageSteps {
 	@Step
 	public void assertAddToCartButtonIsEnabled() {
 		try {
+			productPage.getAddToCartButton().waitUntilEnabled();
 			productPage.getAddToCartButton().waitUntilEnabled().shouldBeEnabled();
 		} catch (StaleElementReferenceException e) {
+			productPage.getAddToCartButton().waitUntilEnabled();
 			productPage.getAddToCartButton().waitUntilEnabled().shouldBeEnabled();
 		}
 	}
